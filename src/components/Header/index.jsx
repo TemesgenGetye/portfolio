@@ -79,7 +79,7 @@ export default function Header({ customClass }) {
           <Magnetic>
             <div className={styles.el}>
               <Link
-                href={`https://drive.google.com/file/d/1SVgUfGjXl7K-T-oqUQ2P-RRvMm4wrY5D/view?usp=drive_link`}
+                href={`https://drive.google.com/file/d/1qjTi4waaNoK7nEvp3VUhCxFI0MHieMhk/view?usp=drive_link`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
