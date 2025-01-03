@@ -16,6 +16,29 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
       </body>
+
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+      window.addEventListener('load', () => {
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+          const message = document.createElement('div');
+          message.textContent = 'Please open this website on a PC for the best experience.';
+          message.style.position = 'fixed';
+          message.style.top = '0';
+          message.style.left = '0';
+          message.style.width = '100%';
+          message.style.backgroundColor = '#f8d7da';
+          message.style.color = '#721c24';
+          message.style.textAlign = 'center';
+          message.style.padding = '10px';
+          document.body.appendChild(message);
+        }
+      });
+    `,
+        }}
+      />
     </html>
   );
 }
