@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f2ef;
+  margin: 0;
+  padding: 0;
+  color: #1c1c1c;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  font-size: 14px;
+}
+.bg p {
+  color: black;
+}
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  color: black;
+}
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  padding-top: 150px;
+}
+.space {
+  padding: 200px;
+}
+.title {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 96px;
+  line-height: 1;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.project-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.project-infoo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.info-column h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.stripe {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #00000025;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.info-column p {
+  margin: 0;
+  /* font-size: 18px; */
+  font-weight: 300;
+}
+
+.hero-image {
+  margin-bottom: 6rem;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.laptop-mockup {
+  background-color: #e9e4e1;
+  border-radius: 24px;
+  padding: 4rem;
+  margin-bottom: 6rem;
+}
+
+.laptop-mockup img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile-screens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.mobile-screen {
+  background-color: white;
+  border-radius: 24px;
+  padding: 1.5rem;
+  aspect-ratio: 9 / 16;
+}
+
+.mobile-screen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 6rem 1.5rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 96px;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-column h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.footer-column p {
+  margin: 0;
+}
+
+.footer-column .socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.like-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #4169e1;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project-details-header .logo .name p,
+.project-details-header .nav a {
+  color: black;
+}
+a {
+  color: white;
+}
